@@ -23,9 +23,16 @@
                 We are going to launch our full functional website within one month.
                 Till then please wait, be with us and support us ...</i>
             </p>
-            <button><i class="fa fa-phone"></i> CALL US</button>
+            <button id="callButton"><i class="fa fa-phone"></i> CALL US</button>
         </div>
     </div>
     
 </body>
+<script>
+    document.getElementById("callButton").addEventListener("click", function() {
+      const phoneNumber = "+917980281434";
+      window.location.href = `tel:${phoneNumber}`;
+    });
+  </script>
+</script>
 </html>
